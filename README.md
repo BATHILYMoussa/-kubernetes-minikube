@@ -1,6 +1,6 @@
 # Service Mesh
 
-Ce projet est un exemple de mise en place d'un service mesh avec Istio, l'intégration de microservices, et la mise en place de fonctionnalités telles que le circuit breaker, la surveillance avec Kiali et Grafana, ainsi que la composition de services via GraphQL.
+Ce projet est un exemple de mise en place d'un service mesh avec Istio, l'intégration de microservices, et la mise en place de fonctionnalités telles que  la surveillance avec Kiali et Grafana.
 
 ## Prérequis
 - **Système d'exploitation :** Windows
@@ -9,7 +9,7 @@ Ce projet est un exemple de mise en place d'un service mesh avec Istio, l'intég
 ## Installation et Configuration
 1. Installez Istio en suivant les instructions : https://istio.io/latest/docs/setup/getting-started/
 2. Lancer Docker
-3. Lancer Minikube : ''minikube start''
+3. Lancer Minikube : `minikube start`
 4. Récuperez le dépot : ''git clone https://github.com/charroux/servicemesh.git''
 5. Se déplacer dans le répertoire servicemesh
 6. Modifier le fichier infrastruture.yaml et appliquez la configuration de l'infrastructure : ''kubectl apply -f infrastructure.yaml''
