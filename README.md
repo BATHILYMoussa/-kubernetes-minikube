@@ -1,4 +1,4 @@
-# Service Mesh
+# Projet Web
 
 Ce projet est un exemple de mise en place d'un service mesh avec Istio, l'intégration de microservices, et la mise en place de fonctionnalités telles que  la surveillance avec Kiali et Grafana.
 
